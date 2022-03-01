@@ -1259,7 +1259,15 @@ hr {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px
+  padding-right: 15px;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container a:hover {
+  font-weight: bold;
 }
 
 @media (min-width:768px) {
